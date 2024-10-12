@@ -1,1 +1,0 @@
-# code functions to call mistrala and other apis
