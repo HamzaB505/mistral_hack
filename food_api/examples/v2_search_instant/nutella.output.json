@@ -1,0 +1,624 @@
+{
+  "common": [
+    {
+      "serving_unit": "serving 2 TBSP",
+      "tag_name": "nutella",
+      "photo": {
+        "thumb": "https://nix-tag-images.s3.amazonaws.com/1674_thumb.jpg"
+      },
+      "serving_qty": 1,
+      "food_name": "nutella",
+      "tag_id": "1674",
+      "common_type": null,
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "serving 2 TBSP",
+      "tag_name": "nutella",
+      "photo": {
+        "thumb": "https://nix-tag-images.s3.amazonaws.com/1674_thumb.jpg"
+      },
+      "serving_qty": 1,
+      "food_name": "nutellas",
+      "tag_id": "1674",
+      "common_type": null,
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "piece",
+      "tag_name": "nutella cake",
+      "serving_qty": 1,
+      "food_name": "nutella cake",
+      "tag_id": "5953",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "crepe",
+      "tag_name": "nutella crepe",
+      "serving_qty": 1,
+      "food_name": "nutella crepe",
+      "tag_id": "4941",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "piece",
+      "tag_name": "nutella pizza",
+      "serving_qty": 1,
+      "food_name": "nutella pizza",
+      "tag_id": "6134",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "slice",
+      "tag_name": "nutella toast",
+      "serving_qty": 1,
+      "food_name": "nutella toast",
+      "tag_id": "5940",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "cookie",
+      "tag_name": "nutella cookie",
+      "serving_qty": 1,
+      "food_name": "nutella cookie",
+      "tag_id": "6259",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "crepe",
+      "tag_name": "nutella crepe",
+      "serving_qty": 1,
+      "food_name": "nutella crepes",
+      "tag_id": "4941",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "cookie",
+      "tag_name": "nutella cookie",
+      "serving_qty": 1,
+      "food_name": "nutella cookies",
+      "tag_id": "6259",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "serving",
+      "tag_name": "nutella sandwich",
+      "serving_qty": 1,
+      "food_name": "nutella sandwich",
+      "tag_id": "4380",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "slice",
+      "tag_name": "nutella toast",
+      "serving_qty": 1,
+      "food_name": "nutella on toast",
+      "tag_id": "5940",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "slice",
+      "tag_name": "nutella toast",
+      "serving_qty": 1,
+      "food_name": "toast and nutella",
+      "tag_id": "5940",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "piece",
+      "tag_name": "nutella cheesecake",
+      "serving_qty": 1,
+      "food_name": "nutella cheesecake",
+      "tag_id": "6090",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "piece",
+      "tag_name": "nutella cheesecake",
+      "serving_qty": 1,
+      "food_name": "cheesecake nutella",
+      "tag_id": "6090",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "slice",
+      "tag_name": "nutella toast",
+      "serving_qty": 1,
+      "food_name": "toast with nutella",
+      "tag_id": "5940",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "crepe",
+      "tag_name": "nutella crepe",
+      "serving_qty": 1,
+      "food_name": "crepes with nutella",
+      "tag_id": "4941",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "cup",
+      "tag_name": "Nutella Bread Pudding",
+      "serving_qty": 1,
+      "food_name": "nutella bread pudding",
+      "tag_id": "15163",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "piece",
+      "tag_name": "nutella pizza",
+      "serving_qty": 1,
+      "food_name": "nutella dessert pizza",
+      "tag_id": "6134",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "piece",
+      "tag_name": "nutella cake",
+      "serving_qty": 1,
+      "food_name": "nutella chocolate cake",
+      "tag_id": "5953",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "piece",
+      "tag_name": "nutella cake",
+      "serving_qty": 1,
+      "food_name": "chocolate nutella cake",
+      "tag_id": "5953",
+      "common_type": null,
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "locale": "en_US"
+    }
+  ],
+  "branded": [
+    {
+      "serving_unit": "cookies",
+      "nix_brand_id": "51db37e3176fe9790a89a470",
+      "brand_type": 2,
+      "food_name": "Cookies Filled with Nutella Hazelnut Spread",
+      "serving_qty": 2,
+      "nf_calories": 140,
+      "nix_item_id": "6698f7f3138ffe0008195c6f",
+      "photo": {
+        "thumb": "https://nutritionix-api.s3.amazonaws.com/6698f7f4138ffe0008195c70.jpeg"
+      },
+      "brand_name": "Nutella",
+      "region": 1,
+      "brand_name_item_name": "Nutella Cookies Filled with Nutella Hazelnut Spread",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "cookies",
+      "nix_brand_id": "51db37e3176fe9790a89a470",
+      "brand_type": 2,
+      "food_name": "Biscuits",
+      "serving_qty": 2,
+      "nf_calories": 140,
+      "nix_item_id": "624d9b668a915000085f1e68",
+      "photo": {
+        "thumb": "https://assets.syndigo.com/fdc38ef8-4d3e-4c6b-b250-b3e9a0e296ba"
+      },
+      "brand_name": "Nutella",
+      "region": 1,
+      "brand_name_item_name": "Nutella Biscuits",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "tbsp",
+      "nix_brand_id": "51db37e3176fe9790a89a470",
+      "brand_type": 2,
+      "food_name": "Spread, Hazelnut",
+      "serving_qty": 2,
+      "nf_calories": 200,
+      "nix_item_id": "51d2f71ccc9bff111580c03b",
+      "photo": {
+        "thumb": "https://assets.syndigo.com/a543b4d7-a638-4f44-8873-b52d78818d59"
+      },
+      "brand_name": "Nutella",
+      "region": 1,
+      "brand_name_item_name": "Nutella Spread, Hazelnut",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "bar",
+      "nix_brand_id": "51db37e3176fe9790a89a470",
+      "brand_type": 2,
+      "food_name": "B-Ready Ferrero Crispy Wafer Filled With Nutella Hazelnut Spread With Cocoa",
+      "serving_qty": 1,
+      "nf_calories": 110,
+      "nix_item_id": "64aa94c4e5e39c00085197f3",
+      "photo": {
+        "thumb": "https://nutritionix-api.s3.amazonaws.com/64aa94c4e5e39c00085197f4.jpeg"
+      },
+      "brand_name": "Nutella",
+      "region": 1,
+      "brand_name_item_name": "Nutella B-Ready Ferrero Crispy Wafer Filled With Nutella Hazelnut Spread With Cocoa",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "tbsp",
+      "nix_brand_id": "51db37e3176fe9790a89a470",
+      "brand_type": 2,
+      "food_name": "Hazelnut Spread",
+      "serving_qty": 2,
+      "nf_calories": 200,
+      "nix_item_id": "51d2f71acc9bff111580c027",
+      "photo": {
+        "thumb": "https://assets.syndigo.com/1f8329f4-aa9a-4e3f-a9bd-b62e1b5fd861"
+      },
+      "brand_name": "Nutella",
+      "region": 1,
+      "brand_name_item_name": "Nutella Hazelnut Spread",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "unit",
+      "nix_brand_id": "51db37e3176fe9790a89a470",
+      "brand_type": 2,
+      "food_name": "Hazelnut Spread + Breadsticks",
+      "serving_qty": 1,
+      "nf_calories": 260,
+      "nix_item_id": "51c53e2e97c3e6efadd5a589",
+      "photo": {
+        "thumb": "https://assets.syndigo.com/4a802a3f-addb-4b7c-bc7a-300edb34fa05"
+      },
+      "brand_name": "Nutella",
+      "region": 1,
+      "brand_name_item_name": "Nutella Hazelnut Spread + Breadsticks",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "bar",
+      "nix_brand_id": "51db37e3176fe9790a89a470",
+      "brand_type": 2,
+      "food_name": "B-Ready Crispy Wafer Filled with Nutella Hazelnut Spread with Cocoa",
+      "serving_qty": 1,
+      "nf_calories": 110,
+      "nix_item_id": "63d7a3cda58a700008e02554",
+      "photo": {
+        "thumb": "https://nutritionix-api.s3.amazonaws.com/63d7a3cda58a700008e02555.jpeg"
+      },
+      "brand_name": "Nutella",
+      "region": 1,
+      "brand_name_item_name": "Nutella B-Ready Crispy Wafer Filled with Nutella Hazelnut Spread with Cocoa",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "Serving",
+      "nix_brand_id": "513fbc1283aa2dc80c0000f5",
+      "brand_type": 1,
+      "food_name": "Nutella",
+      "serving_qty": 1,
+      "nf_calories": 310,
+      "nix_item_id": "bd9d5215534f36650276d2b0",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "The Counter",
+      "region": 1,
+      "brand_name_item_name": "The Counter Nutella",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "Scoop",
+      "nix_brand_id": "513fbc1283aa2dc80c000007",
+      "brand_type": 1,
+      "food_name": "Nutella Topping",
+      "serving_qty": 1,
+      "nf_calories": 90,
+      "nix_item_id": "22383219da00ae03bc555cca",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Pinkberry",
+      "region": 1,
+      "brand_name_item_name": "Pinkberry Nutella Topping",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "serving",
+      "nix_brand_id": "51db381c176fe9790a89b5b2",
+      "brand_type": 1,
+      "food_name": "Toppings, Nutella",
+      "serving_qty": 1,
+      "nf_calories": 150,
+      "nix_item_id": "bd9d0417e0d2e94b014c6f0c",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Carvel",
+      "region": 1,
+      "brand_name_item_name": "Carvel Toppings, Nutella",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "bar",
+      "nix_brand_id": "51db37e3176fe9790a89a470",
+      "brand_type": 2,
+      "food_name": "Crispy Wafer, B-Ready",
+      "serving_qty": 1,
+      "nf_calories": 110,
+      "nix_item_id": "6389db2a37f9e200066f64d0",
+      "photo": {
+        "thumb": "https://assets.syndigo.com/959f48c1-683e-40a1-87e9-f0892071d71f"
+      },
+      "brand_name": "Nutella",
+      "region": 1,
+      "brand_name_item_name": "Nutella Crispy Wafer, B-Ready",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "Serving",
+      "nix_brand_id": "513fbc1283aa2dc80c00015d",
+      "brand_type": 1,
+      "food_name": "Crepes, Nutella Solo",
+      "serving_qty": 1,
+      "nf_calories": 430,
+      "nix_item_id": "bd9d9616ad64d42e6fda7009",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Freshens",
+      "region": 1,
+      "brand_name_item_name": "Freshens Crepes, Nutella Solo",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "Serving",
+      "nix_brand_id": "61c0f2f025c7e5b31bc2d4f0",
+      "brand_type": 1,
+      "food_name": "Drizzles, Nutella",
+      "serving_qty": 1,
+      "nf_calories": 150,
+      "nix_item_id": "22384017f03cfe7b5ddc5ee1",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Playa Bowls",
+      "region": 1,
+      "brand_name_item_name": "Playa Bowls Drizzles, Nutella",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "Serving",
+      "nix_brand_id": "62b4dace49da868556a631e9",
+      "brand_type": 1,
+      "food_name": "Nutella Chocolate Pretzel",
+      "serving_qty": 1,
+      "nf_calories": 850,
+      "nix_item_id": "e8b50016ca19fa476378b285",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Hopdoddy",
+      "region": 1,
+      "brand_name_item_name": "Hopdoddy Nutella Chocolate Pretzel",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "serving",
+      "nix_brand_id": "513fbc1283aa2dc80c0005d4",
+      "brand_type": 1,
+      "food_name": "Nutella Croissant",
+      "serving_qty": 1,
+      "nf_calories": 480,
+      "nix_item_id": "bd9d121984d64ed2f9e2105f",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Van Houtte",
+      "region": 1,
+      "brand_name_item_name": "Van Houtte Nutella Croissant",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "serving",
+      "nix_brand_id": "58c714c6a5caac52402b3c72",
+      "brand_type": 1,
+      "food_name": "Nutella Solo",
+      "serving_qty": 1,
+      "nf_calories": 360,
+      "nix_item_id": "c6405291fef3dfbfb8ff5c7e",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Crepe Maker",
+      "region": 1,
+      "brand_name_item_name": "Crepe Maker Nutella Solo",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "TBSP",
+      "nix_brand_id": "521b95444a56d006cae29911",
+      "brand_type": 1,
+      "food_name": "Nutella- Ca",
+      "serving_qty": 2,
+      "nf_calories": 200,
+      "nix_item_id": "bd9d4818a754ba2e1af6cfb4",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "HoneyBaked Ham",
+      "region": 1,
+      "brand_name_item_name": "HoneyBaked Ham Nutella- Ca",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "oz",
+      "nix_brand_id": "513fbc1283aa2dc80c000097",
+      "brand_type": 1,
+      "food_name": "Add-Ins, Nutella",
+      "serving_qty": 1,
+      "nf_calories": 150,
+      "nix_item_id": "bd9d96166633db35be1cf536",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Planet Smoothie",
+      "region": 1,
+      "brand_name_item_name": "Planet Smoothie Add-Ins, Nutella",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "bar",
+      "nix_brand_id": "5420862fd85da57d51a790f7",
+      "brand_type": 2,
+      "food_name": "B-ready Bar",
+      "serving_qty": 1,
+      "nf_calories": 110,
+      "nix_item_id": "64c4f312b13f630008360af9",
+      "photo": {
+        "thumb": "https://nutritionix-api.s3.amazonaws.com/64e5e9788a6fa8000867d0af.jpeg"
+      },
+      "brand_name": "Nutella Ferrero",
+      "region": 1,
+      "brand_name_item_name": "Nutella Ferrero B-ready Bar",
+      "locale": "en_US"
+    },
+    {
+      "serving_unit": "Serving",
+      "nix_brand_id": "66bce2cecd509500019150e0",
+      "brand_type": 1,
+      "food_name": "Blueberry Nutella Waffle",
+      "serving_qty": 1,
+      "nf_calories": 500,
+      "nix_item_id": "2238721844692375b6754c4a",
+      "photo": {
+        "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+        "highres": null,
+        "is_user_uploaded": false
+      },
+      "brand_name": "Modern Market",
+      "region": 1,
+      "brand_name_item_name": "Modern Market Blueberry Nutella Waffle",
+      "locale": "en_US"
+    }
+  ]
+}

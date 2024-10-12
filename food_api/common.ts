@@ -14,3 +14,14 @@ export async function naturalNutrients(query: string) {
         }
       });
 }
+
+export async function searchInstant(query: string) {
+    return await axios.get(`https://trackapi.nutritionix.com/v2/search/instant`, {
+        params: { query },
+        headers: {
+            'Content-Type': 'application/json',
+            'x-app-id': app_id,
+            'x-app-key': api_key
+        }
+    });
+}
