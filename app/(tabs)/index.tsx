@@ -5,35 +5,34 @@ import * as FileSystem from 'expo-file-system';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { useRouter } from 'expo-router';
-
+import { useAppState } from '../state';
+import {v4} from "uuid";
+import 'react-native-get-random-values';
 
 export const PhotoTakenStage = ({ photo, clear}: { photo: string, clear: () => void }) => {
   const router = useRouter();
+  const {tmpFoodPhotoChange, setState} = useAppState();
 
-  const handleVerifyFood = async () => {
+  const handleVerifyFood = React.useCallback(async () => {
     try {
-      const fileName = `${FileSystem.documentDirectory}temp_food_image.jpg`;
+      const uuid = v4();
+      const fileName = `${FileSystem.documentDirectory}/foodTmp/${uuid}.jpg`;
       await FileSystem.copyAsync({
         from: photo,
         to: fileName
       });
       router.push({
-        pathname: "/verifyFood",
+        pathname: "/modal/verifyFood",
         params: { photoUri: fileName }
       });
     } catch (error) {
       console.error("Error saving image:", error);
     }
-  };
+  }, [photo, router]);
 
   return <View style={styles.previewContainer}>
     <Image source={{ uri: photo }} style={styles.preview} />
-    <TouchableOpacity style={styles.button} onPress={handleVerifyFood}>
-      <ThemedText style={styles.buttonText}>Can I eat that</ThemedText>
-    </TouchableOpacity>
-    <TouchableOpacity style={styles.button} onPress={() => clear()}>
-      <ThemedText style={styles.buttonText}>Take Another Photo</ThemedText>
-    </TouchableOpacity>
+    <ActionButtons buttons={[{name: "Take Another Photo", onClick: clear, secondary: true}, {name: "Can I eat that?", onClick: handleVerifyFood}]} />
   </View>
 }
 
@@ -43,6 +42,26 @@ export const VerifyFoodStage = () => {
       <ThemedText style={styles.verifyText}>Verifying your food...</ThemedText>
     </ThemedView>
   );
+}
+
+export interface ActionButton {
+  name: string,
+  onClick: () => void,
+  secondary?: boolean,
+}
+
+export interface ActionButtonsProps {
+  buttons: ActionButton[]
+}
+
+export const ActionButtons = ({buttons}: ActionButtonsProps) => {
+  return <View style={styles.buttonContainer}>
+    {buttons.map((button) => (
+      <TouchableOpacity key={button.name} style={[button.secondary ? styles.buttonSecondary : styles.button]} onPress={button.onClick}>
+        <ThemedText style={button.secondary ? styles.buttonTextSecondary : styles.buttonText}>{button.name}</ThemedText>
+      </TouchableOpacity>
+    ))}
+  </View>
 }
 
 export default function HomeScreen() {
@@ -92,14 +111,7 @@ export default function HomeScreen() {
     <ThemedView style={styles.container}>
       {!photo ? (
         <CameraView ref={cameraRef} style={styles.camera} facing={facing}>
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity style={styles.button} onPress={toggleCameraFacing}>
-              <ThemedText style={styles.buttonText}>Flip Camera</ThemedText>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.button} onPress={takePhoto}>
-              <ThemedText style={styles.buttonText}>Take Photo</ThemedText>
-            </TouchableOpacity>
-          </View>
+          <ActionButtons buttons={[{name: "Flip Camera", onClick: toggleCameraFacing, secondary: true}, {name: "Take Photo", onClick: takePhoto}]} />
         </CameraView>
       ) : <PhotoTakenStage photo={photo} clear={() => setPhoto(null)}/>}
     </ThemedView>
@@ -117,20 +129,35 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   buttonContainer: {
+    padding: "5%",
+    backgroundColor: "white",
+    width: '100%',
     position: 'absolute',
-    bottom: 20,
-    alignSelf: 'center',
+    bottom: 0,
     flexDirection: 'row',
+    justifyContent: 'center'
   },
   button: {
-    backgroundColor: '#A1CEDC',
+    backgroundColor: '#5C59F3',
     padding: 15,
-    borderRadius: 5,
+    borderRadius: 100,
     marginHorizontal: 10,
+  },
+  buttonSecondary: {
+    padding: 15,
+    borderRadius: 100,
+    marginHorizontal: 10,
+    borderColor: '#5C59F3',
+    borderWidth: 2,
   },
   buttonText: {
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  buttonTextSecondary: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: 'black',
   },
   message: {
     marginBottom: 20,
