@@ -15,8 +15,25 @@ interface Result {
     type: string
   }
 }
-
+const BACKEND_BASEURL = "https://mistralhacktwo-production.up.railway.app";
 async function verifyFood(image: string): Promise<Result> {
+  const bodyFormData = new FormData();
+  (bodyFormData as any).append('image', {
+    uri: image,
+    name: 'image.jpg', // Adjust file extension if needed
+    type: 'image/jpeg', // Adjust content type if needed
+  });
+
+  const response = await fetch(`${BACKEND_BASEURL}/verify_food/`, { // Replace with your backend URL
+    method: 'POST',
+    body: bodyFormData,
+    headers: {
+      // You may need to adjust headers based on your backend configuration
+      'Content-Type': 'multipart/form-data',
+    },
+  });
+  console.log("WHY", await response.json());
+  // bodyFormData.append('name', 'image')
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
